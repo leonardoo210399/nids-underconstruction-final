@@ -1,0 +1,92 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url('https://wallpapercave.com/wp/wp3441226.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#title {
+  color: #fefefe;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 10px 30px 10px 0;
+  font-size: 3.5rem;
+}
+
+.row {
+  height: 60%;
+}
+
+/* title image */
+.title-image {
+  position: relative;
+  text-align: right;
+  width: auto;
+}
+
+.model-image {
+  text-align: right;
+}
+
+.title-dialouge-box {
+  position: absolute;
+  /* top: 0;
+  left:0; */
+}
+
+.fas-icon {
+  color: #ef8172;
+  font-size: 5rem;
+  margin-bottom: 1.5rem
+}
+
+.fas-icon:hover {
+  color: #ff4c68;
+}
+
+.carousel-item {
+  padding: 1% 2%;
+}
+
+.logo {
+  width: 50%;
+  position: relative;
+}
+
+.nav-link {
+  position: relative;
+}
+
+/* media query */
+@media (max-width: 1024px) {
+
+  /* #title{
+    text-align: center;
+  } */
+  .title-image {
+    position: static;
+  }
+
+  .model-image {
+    text-align: center;
+    padding-top: 4%;
+  }
+
+  .logo {
+    padding-left: 2%;
+    width: 50%;
+  }
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 1% background-color: #ff4c68;
+}
+
+.social-icon {
+  margin: 1rem;
+  font-size: 1.5rem;
+}
